@@ -15,6 +15,7 @@ export class ImovelService {
       "estado": "Minas Gerais",
       "favorito": false,
       "tipo": "casa",
+      "valor": 450000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -50,6 +51,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "apt",
+      "valor": 300000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -72,6 +74,7 @@ export class ImovelService {
       "cidade": "Americana",
       "estado": "São Paulo",
       "favorito": false,
+      "valor": 600000.00,
       "tipo": "casa",
       "lat": -22.7052427,
       "lng": -47.6552873,
@@ -99,6 +102,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "casa",
+      "valor": 350000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -125,6 +129,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "apt",
+      "valor": 250000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -147,6 +152,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "apt",
+      "valor": 550000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -169,6 +175,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "casa",
+      "valor": 650000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [
@@ -195,6 +202,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "casa",
+      "valor": 700000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [],
@@ -208,6 +216,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo": "apt",
+      "valor": 450000.00,
       "lat": -22.7052427,
       "lng": -47.6552873,
       "adicionais": [],
@@ -223,6 +232,7 @@ export class ImovelService {
       "lat": -22.7052427,
       "lng": -47.6552873,
       "tipo": "casa",
+      "valor": 650000.00,
       "adicionais": [],
       "aluguel": []
     }

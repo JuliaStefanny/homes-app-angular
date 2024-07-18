@@ -18,6 +18,8 @@ export interface Imovel {
     lat: number;
     lng: number;
     favorito: boolean;
+    valor: number;
     adicionais: Propriedades[];
     aluguel: DetalhesAluguel[];
+
 }

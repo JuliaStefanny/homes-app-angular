@@ -26,6 +26,20 @@ export class ImovelService {
           "chave": "Piscina",
           "valor": "Sim"
         }
+      ],
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": 4500
+        },
+        {
+          "chave": "Aluguel anual",
+          "valor": 50000
+        },
+        {
+          "chave": "Aluguel em dois anos",
+          "valor": 19000
+        }
       ]
     },
     {
@@ -42,6 +56,12 @@ export class ImovelService {
         {
           "chave": "Banheiro",
           "valor": 1
+        }
+      ], 
+      "aluguel": [
+        {
+          "chave": "Aluguel mensal",
+          "valor": 1000
         }
       ]
     },
@@ -68,7 +88,8 @@ export class ImovelService {
           "chave": "Árvores",
           "valor": "Bastante"
         }
-      ]
+      ],
+      "aluguel": []
     },
     {
       "id": 4,
@@ -93,7 +114,8 @@ export class ImovelService {
           "chave": "Diversão",
           "valor": "Quadra, campo, playground"
         }
-      ]
+      ],
+      "aluguel": []
     },
     {
       "id": 5,
@@ -114,7 +136,8 @@ export class ImovelService {
           "chave": "Wifi",
           "valor": "sim"
         }
-      ]
+      ],
+      "aluguel": []
     },
     {
       "id": 6,
@@ -135,7 +158,8 @@ export class ImovelService {
           "chave": "Energia",
           "valor": "está incluso"
         }
-      ]
+      ],
+      "aluguel": []
     },
     {
       "id": 7,
@@ -160,7 +184,8 @@ export class ImovelService {
           "chave": "Árvores",
           "valor": "Bastante"
         }
-      ]
+      ],
+      "aluguel": []
     },
     {
       "id": 8,
@@ -172,7 +197,8 @@ export class ImovelService {
       "tipo": "casa",
       "lat": -22.7052427,
       "lng": -47.6552873,
-      "adicionais": []
+      "adicionais": [],
+      "aluguel": []
     },
     {
       "id": 9,
@@ -184,7 +210,8 @@ export class ImovelService {
       "tipo": "apt",
       "lat": -22.7052427,
       "lng": -47.6552873,
-      "adicionais": []
+      "adicionais": [],
+      "aluguel": []
     },
     {
       "id": 10,
@@ -196,7 +223,8 @@ export class ImovelService {
       "lat": -22.7052427,
       "lng": -47.6552873,
       "tipo": "casa",
-      "adicionais": []
+      "adicionais": [],
+      "aluguel": []
     }
   ]
 

@@ -1,5 +1,6 @@
 <section class="content">
     <article>
+        
         <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
         <section class="listing-description">
             <h2 class="listing-heading">{{imovel?.nome}}</h2>
@@ -9,19 +10,14 @@
         </section>
 
         <section class="listing-features">
-            <h2 class="section-heading">Informações adicionais</h2>
+            <h2 class="section-heading">Informações para alugar</h2>
             <ul>
-                @for(info of imovel?.adicionais;  track $index) {
+                @for(info of imovel?.aluguel;  track $index) {
                     <li>{{info.chave}}: {{info.valor}}</li>
                 }
             </ul>
         </section>
 
-        <div>
-            <button type="button" class="primary alinha" (click)="abrirPaginaAluguel()">Alugar</button>
-            <button type="button" class="primary alinha">Comprar</button>
-            <button type="button" class="primary alinha">Calcular financiamento</button>
-        </div>
-
     </article>
+
 </section>
